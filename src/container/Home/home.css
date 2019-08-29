@@ -1,0 +1,64 @@
+body{
+    background: #0EE3DC;
+}
+
+
+
+.bg-special{
+    background: #0EE3DC;
+}
+
+.jumbotron{
+box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+@media only screen and (min-width: 576px) {
+.position-absolute{
+    left:0%;
+    right: 0%;
+}
+    
+
+.title{
+    position: relative;
+    right: -30%;
+}
+
+ .myimage {
+    position: relative;
+    right: -40%;
+    z-index: 100;
+    
+  }
+
+  .myicon{
+      position: relative;
+      right: -30%;
+      z-index: 100;
+  }
+
+  .col-img{
+      width: 600px;
+  }
+
+  
+}
+
+.image-work{
+    height: 200px;
+    width: 270px;
+    transition: all .3s;
+    
+  }
+  .image-work:hover{
+      transform: scale(1.2,1.2);
+      box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer{
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
